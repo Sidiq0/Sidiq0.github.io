@@ -3,12 +3,12 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
-tags: [Page]
+tags: [About]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Hi there! I'm Sidiq, and I'm just starting out on my programming journey. I've always been fascinated by how things work, and now I'm learning how to build them myself.
 
-Head over to the [theme's documentation](https://github.com/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+Before diving into code, I spent a lot of time with Google Sheets, organizing data and automating tasks. It was my first taste of the power of technology. Now, I'm excited to explore the world of programming and see where it takes me.
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+In my free time, I love to write about interesting things I find online.I'll be sharing my thoughts and discoveries here, so feel free to join me on this adventure
  

@@ -4,7 +4,7 @@ url: "https://sidiq0.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Sidiq Blog                                    # site's title
-description: "Sidiq's personal blog: Programming tutorials, Google Sheets tips, and productivity tips"      # used by search engines
+description: "Newbie Programmer"      # used by search engines
 avatar: assets/img/logo.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 

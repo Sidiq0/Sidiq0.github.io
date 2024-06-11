@@ -20,8 +20,7 @@ I bet the words "Hello World" sound super familiar, right? When we first started
 Honestly, I kind of dig the whole "Hello World" thing. It's like a warm hug that makes me want to dive deeper into the coding world. ✨  Speaking of diving in, this is my very first blog post, and I thought "Hello World" was a pretty fitting title, don't you think? 😄
 
 \
-Since this is my first post, I wanted to chat a bit about taking that first step. It's tough, I know. 😣 Especially for someone like me who tends to be a bit of a perfectionist. 😅\
-I always feel like I need to research everything to death before I can actually do anything.
+Since this is my first post, I wanted to chat a bit about taking that first step. It's tough, I know. 😣 Especially for someone like me who tends to be a bit of a perfectionist. 😅I always feel like I need to research everything to death before I can actually do anything.
 
 \
 But when you take that too far, it's easy to get stuck in planning mode and never actually take action. It's like this weird illusion of being productive, but in reality, you're just wasting time. 😫

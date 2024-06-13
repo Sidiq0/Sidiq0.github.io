@@ -4,6 +4,7 @@ title: Hello, World!
 tags: [Personal, First Post]
 categories: Blog
 author: sidiq
+lang: en
 excerpt_separator: <!--more-->
 date: 2024-06-11
 ---

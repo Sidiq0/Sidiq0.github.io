@@ -1,6 +1,11 @@
 # To add links to the navigation bar.
 - example:
-  title: Example
-  url: https://example.com
-  hide: true
+  title: ID
+  url: /id/
+  hide: false
   position: 2
+- EN:
+  title: EN
+  url: "https://sidiq0.github.io"
+  hide: false
+  position: 3

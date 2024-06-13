@@ -45,6 +45,7 @@ jobs:
         run: |
           gem install type-on-strap
           gem install jekyll-theme-type-on-strap
+          gem install jekyll-polyglot
       - name: GPR
         continue-on-error: true
         run: |

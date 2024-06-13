@@ -33,6 +33,8 @@ jobs:
         if: matrix.ruby != '2.7.4'
       - name: Install
         run: bundle install
+      - name: Install Polyglot
+        run: gem install jekyll-polyglot
       - name: Build jekyll site
         run: bundle exec jekyll build
       - name: Build the gem
@@ -45,6 +47,7 @@ jobs:
         run: |
           gem install type-on-strap
           gem install jekyll-theme-type-on-strap
+
       - name: GPR
         continue-on-error: true
         run: |

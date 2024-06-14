@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 tags: [About]
+lang: en
+page_id: about
 ---
 
 Hi there! I'm Sidiq, and I'm just starting out on my programming journey. I've always been fascinated by how things work, and now I'm learning how to build them myself.

@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://sidiq0.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sidiq0.github.io/" rel="alternate" type="text/html" /><updated>2024-06-14T17:03:45+07:00</updated><id>https://sidiq0.github.io/feed.xml</id><title type="html">Sidiq Blog</title><subtitle>Newbie Programmer</subtitle><entry xml:lang="en"><title type="html">Hello, World!</title><link href="https://sidiq0.github.io/blog/2024/06/11/hello-world.en.html" rel="alternate" type="text/html" title="Hello, World!" /><published>2024-06-11T00:00:00+07:00</published><updated>2024-06-11T00:00:00+07:00</updated><id>https://sidiq0.github.io/blog/2024/06/11/hello-world.en</id><content type="html" xml:base="https://sidiq0.github.io/blog/2024/06/11/hello-world.en.html"><![CDATA[<p>Hey there! 👋
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://sidiq0.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sidiq0.github.io/" rel="alternate" type="text/html" /><updated>2024-07-24T14:56:41+07:00</updated><id>https://sidiq0.github.io/feed.xml</id><title type="html">Sidiq Blog</title><subtitle>Newbie Programmer</subtitle><entry xml:lang="en"><title type="html">Experience in Google Arcade 2024</title><link href="https://sidiq0.github.io/blog/2024/07/24/pengalaman-ikut-Google-Arcade-24.en.html" rel="alternate" type="text/html" title="Experience in Google Arcade 2024" /><published>2024-07-24T00:00:00+07:00</published><updated>2024-07-24T00:00:00+07:00</updated><id>https://sidiq0.github.io/blog/2024/07/24/pengalaman-ikut-Google-Arcade-24.en</id><content type="html" xml:base="https://sidiq0.github.io/blog/2024/07/24/pengalaman-ikut-Google-Arcade-24.en.html"><![CDATA[<p>Hi 👋, it seems like it’s been over a month since I’ve updated this blog, hehe 😅 . Well, that’s because I’ve been busy participating in the <a href="https://rsvp.withgoogle.com/events/arcade-fasilitator-id">Google Arcade Fasilitator 24 </a></p>
+
+<!--more-->
+
+<p>This program is a coding scholarship from Google with a gamification concept, like playing a game. We earn points for each course we complete, and those points can be exchanged for Google merchandise. The program ran from May 15, 2024, to July 15, 2024, and I didn’t join until June 15, 2024, so I was a bit short on time hehe 😅 .</p>
+
+<p>Here is the Arcade point calculation scheme:</p>
+
+<p><img src="\assets\img\points_system_bahasa_v2.png" alt="arcade_point" width="500" /></p>
+
+<p>And here is the list of prizes:</p>
+
+<p><img src="\assets\img\arcade_milestone.jpg" alt="arcade_prize" /></p>
+
+<p>Since I was aiming for the premium prize, I had to collect at least 60 points. This means I needed to complete over 80 courses. Automatically, I had to think creatively to complete the courses quickly in a limited time ⏱️.</p>
+
+<p>From there, I researched and found out about Shell Scripting. With Shell Scripting, I could combine the commands needed to complete the courses all at once, without having to manually copy and paste them into Google Cloud Shell ⌨️. Alhamdulillah, I managed to complete the courses in a total of 240 hours (from an estimated 389 hours), making it 30% faster ⚡️!</p>
+
+<p><img src="\assets\img\email.jpg" alt="arcade_prize" /></p>
+
+<p>On July 22, 2024, I received a “love letter” from Google, yeay! All that’s left is to wait for the long-awaited merchandise to arrive at home 🥰.</p>]]></content><author><name>Sidiq</name></author><category term="Blog" /><category term="Personal" /><summary type="html"><![CDATA[Hi 👋, it seems like it’s been over a month since I’ve updated this blog, hehe 😅 . Well, that’s because I’ve been busy participating in the Google Arcade Fasilitator 24]]></summary></entry><entry xml:lang="en"><title type="html">Hello, World!</title><link href="https://sidiq0.github.io/blog/2024/06/11/hello-world.en.html" rel="alternate" type="text/html" title="Hello, World!" /><published>2024-06-11T00:00:00+07:00</published><updated>2024-06-11T00:00:00+07:00</updated><id>https://sidiq0.github.io/blog/2024/06/11/hello-world.en</id><content type="html" xml:base="https://sidiq0.github.io/blog/2024/06/11/hello-world.en.html"><![CDATA[<p>Hey there! 👋
 <!--more--></p>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello, World!</span><span class="dl">'</span><span class="p">);</span>
 </code></pre></div></div>

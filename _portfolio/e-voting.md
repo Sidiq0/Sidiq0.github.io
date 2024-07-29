@@ -1,0 +1,248 @@
+---
+layout: post
+title: E-Voting
+img: "assets/img/portfolio/e-voting.png"
+categories: Portfolio
+date: July, 29 2024
+tags: [Portfolio,Laravel]
+---
+
+![image]({{ page.img | relative_url }}){:style="display:block; margin-left:auto; margin-right:auto"}
+
+# E-Voting Project
+
+An online voting system for the student activity units at campus, featuring admin and user dashboards. This project utilizes AdminLTE 3 for the bootstrap template and Chart.js for displaying vote counts.
+
+[Github](https://github.com/Sidiq0/E-Voting)
+
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Dependencies](#dependencies)
+- [License](#license)
+
+## Features
+
+### Admin Dashboard
+- **Dashboard**: Displays total number of candidates, voters, and vote count with a bar chart from Chart.js.
+- **Kelola Kandidat**: Add and delete candidates.
+- **Kelola Mahasiswa**: Add and delete user accounts.
+- **Profile**: Admin profile management.
+- **Vote Log**: Logs of all voting activities.
+
+### User Dashboard
+- **Vote**: Page for users to cast their votes.
+- **Profile**: User profile management.
+
+## Prerequisites
+
+- PHP >= 7.3
+- Composer
+- Laravel
+- Node.js and npm
+
+## Installation
+
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/Sidiq0/E-Voting.git
+    ```
+
+2. **Install dependencies:**
+    ```sh
+    composer install
+    npm install
+    ```
+
+3. **Environment setup:**
+    - Copy `.env.example` to `.env`:
+        ```sh
+        cp .env.example .env
+        ```
+    - Update the `.env` file with your database and other configurations.
+
+4. **Generate application key:**
+    ```sh
+    php artisan key:generate
+    ```
+
+5. **Create a symbolic link to the storage directory:**
+    ```sh
+    php artisan storage:link
+    ```
+
+6. **Run migrations and seed the database:**
+    ```sh
+    php artisan migrate:fresh --seed
+    ```
+
+## Configuration
+
+Update the `.env` file with your specific environment settings, such as database connection details and other application configurations.
+
+## Usage
+
+1. **Start the development server:**
+    ```sh
+    php artisan serve
+    ```
+
+2. **Access the application:**
+    Open your browser and navigate to `http://localhost:8000`.
+
+3. **Login Credentials:**
+    - **Admin:**
+        - Email: `admin@example.com`
+        - Password: `12345678`
+    - **User:**
+        - Email: `user@example.com`
+        - Password: `12345678`
+
+## Dependencies
+
+<details>
+<summary><strong>PHP Dependencies</strong></summary>
+<ul>
+  <li>almasaeed2010/adminlte v3.2.0</li>
+  <li>brick/math 0.12.1</li>
+  <li>carbonphp/carbon-doctrine-types 2.1.0</li>
+  <li>dflydev/dot-access-data v3.0.3</li>
+  <li>doctrine/inflector 2.0.10</li>
+  <li>doctrine/lexer 3.0.1</li>
+  <li>dragonmantank/cron-expression v3.3.3</li>
+  <li>egulias/email-validator 4.0.2</li>
+  <li>fakerphp/faker v1.23.1</li>
+  <li>filp/whoops 2.15.4</li>
+  <li>fruitcake/php-cors v1.3.0</li>
+  <li>graham-campbell/result-type v1.1.2</li>
+  <li>guzzlehttp/guzzle 7.8.1</li>
+  <li>guzzlehttp/promises 2.0.2</li>
+  <li>guzzlehttp/psr7 2.6.2</li>
+  <li>guzzlehttp/uri-template v1.0.3</li>
+  <li>hamcrest/hamcrest-php v2.0.1</li>
+  <li>jeroennoten/laravel-adminlte v3.12.0</li>
+  <li>laravel/framework v10.48.16</li>
+  <li>laravel/pint v1.16.2</li>
+  <li>laravel/prompts v0.1.24</li>
+  <li>laravel/sail v1.30.2</li>
+  <li>laravel/sanctum v3.3.3</li>
+  <li>laravel/serializable-closure v1.3.3</li>
+  <li>laravel/tinker v2.9.0</li>
+  <li>laravel/ui v4.5.2</li>
+  <li>league/commonmark 2.4.2</li>
+  <li>league/config v1.2.0</li>
+  <li>league/flysystem v3.28.0</li>
+  <li>league/flysystem-local v3.28.0</li>
+  <li>league/mime-type-detection v1.15.0</li>
+  <li>mockery/mockery 1.6.12</li>
+  <li>monolog/monolog 3.7.0</li>
+  <li>myclabs/deep-copy 1.12.0</li>
+  <li>nesbot/carbon 2.72.5</li>
+  <li>nette/schema v1.3.0</li>
+  <li>nette/utils v4.0.4</li>
+  <li>nikic/php-parser v5.1.0</li>
+  <li>nunomaduro/collision v7.10.0</li>
+  <li>nunomaduro/termwind v1.15.1</li>
+  <li>phar-io/manifest 2.0.4</li>
+  <li>phar-io/version 3.2.1</li>
+  <li>phpoption/phpoption 1.9.2</li>
+  <li>phpunit/php-code-coverage 10.1.15</li>
+  <li>phpunit/php-file-iterator 4.1.0</li>
+  <li>phpunit/php-invoker 4.0.0</li>
+  <li>phpunit/php-text-template 3.0.1</li>
+  <li>phpunit/php-timer 6.0.0</li>
+  <li>phpunit/phpunit 10.5.27</li>
+  <li>psr/clock 1.0.0</li>
+  <li>psr/container 2.0.2</li>
+  <li>psr/event-dispatcher 1.0.0</li>
+  <li>psr/http-client 1.0.3</li>
+  <li>psr/http-factory 1.1.0</li>
+  <li>psr/http-message 2.0</li>
+  <li>psr/log 3.0.0</li>
+  <li>psr/simple-cache 3.0.0</li>
+  <li>psy/psysh v0.12.4</li>
+  <li>ralouphie/getallheaders 3.0.3</li>
+  <li>ramsey/collection 2.0.0</li>
+  <li>ramsey/uuid 4.7.6</li>
+  <li>sebastian/cli-parser 2.0.1</li>
+  <li>sebastian/code-unit 2.0.0</li>
+  <li>sebastian/code-unit-reverse-lookup 3.0.0</li>
+  <li>sebastian/comparator 5.0.1</li>
+  <li>sebastian/complexity 3.2.0</li>
+  <li>sebastian/diff 5.1.1</li>
+  <li>sebastian/environment 6.1.0</li>
+  <li>sebastian/exporter 5.1.2</li>
+  <li>sebastian/global-state 6.0.2</li>
+  <li>sebastian/lines-of-code 2.0.2</li>
+  <li>sebastian/object-enumerator 5.0.0</li>
+  <li>sebastian/object-reflector 3.0.0</li>
+  <li>sebastian/recursion-context 5.0.0</li>
+  <li>sebastian/type 4.0.0</li>
+  <li>sebastian/version 4.0.1</li>
+  <li>spatie/backtrace 1.6.1</li>
+  <li>spatie/error-solutions 1.0.5</li>
+  <li>spatie/flare-client-php 1.7.0</li>
+  <li>spatie/ignition 1.15.0</li>
+  <li>spatie/laravel-ignition 2.8.0</li>
+  <li>symfony/console v6.4.9</li>
+  <li>symfony/css-selector v6.4.8</li>
+  <li>symfony/deprecation-contracts v3.5.0</li>
+  <li>symfony/error-handler v6.4.9</li>
+  <li>symfony/event-dispatcher v6.4.8</li>
+  <li>symfony/event-dispatcher-contracts v3.5.0</li>
+  <li>symfony/finder v6.4.8</li>
+  <li>symfony/http-foundation v6.4.8</li>
+  <li>symfony/http-kernel v6.4.9</li>
+  <li>symfony/mailer v6.4.9</li>
+  <li>symfony/mime v6.4.9</li>
+  <li>symfony/polyfill-ctype v1.30.0</li>
+  <li>symfony/polyfill-intl-grapheme v1.30.0</li>
+  <li>symfony/polyfill-intl-idn v1.30.0</li>
+  <li>symfony/polyfill-intl-normalizer v1.30.0</li>
+  <li>symfony/polyfill-mbstring v1.30.0</li>
+  <li>symfony/polyfill-php72 v1.30.0</li>
+  <li>symfony/polyfill-php80 v1.30.0</li>
+  <li>symfony/polyfill-php83 v1.30.0</li>
+  <li>symfony/polyfill-uuid v1.30.0</li>
+  <li>symfony/process v6.4.8</li>
+  <li>symfony/routing v6.4.8</li>
+  <li>symfony/service-contracts v3.5.0</li>
+  <li>symfony/string v6.4.9</li>
+  <li>symfony/translation v6.4.8</li>
+  <li>symfony/translation-contracts v3.5.0</li>
+  <li>symfony/uid v6.4.8</li>
+  <li>symfony/var-dumper v6.4.9</li>
+  <li>symfony/yaml v6.4.8</li>
+  <li>theseer/tokenizer 1.2.3</li>
+  <li>tijsverkoyen/css-to-inline-styles v2.2.7</li>
+  <li>vlucas/phpdotenv v5.6.0</li>
+  <li>voku/portable-ascii 2.0.1</li>
+  <li>webmozart/assert 1.11.0</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Node.js Dependencies</strong></summary>
+<ul>
+  <li>@popperjs/core@2.11.8</li>
+  <li>axios@1.7.2</li>
+  <li>bootstrap@5.3.3</li>
+  <li>jquery@3.7.1</li>
+  <li>laravel-vite-plugin@1.0.5</li>
+  <li>popper.js@1.16.1</li>
+  <li>sass@1.77.8</li>
+  <li>vite@5.3.3</li>
+</ul>
+</details>
+
+
+
+## License
+
+This project is licensed under the MIT License 
+
+

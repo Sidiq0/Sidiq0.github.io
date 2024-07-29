@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.4.9
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  
+  <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5"> <!-- Theme Mode--> <script> const darkBtn = "Dark"; const lightBtn = "Light"; const isAutoTheme = true; const preferredTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; if (isAutoTheme) { document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme') ?? preferredTheme); } else { document.documentElement.setAttribute('data-theme', "auto"); } </script> <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)--> <script defer src="/assets/js/main.min.js"></script> <!-- CSS --> <link rel="stylesheet" href="/assets/css/main.css"> <!--Favicon--> <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon"> <!-- KaTeX 0.16.9 --> <script defer src="/assets/js/vendor/katex.min.js"></script> <script defer src="/assets/js/vendor/katex.auto-render.min.js" onload="renderMathInElement(document.body);"></script> <!-- Mermaid 10.8.0 --> <script defer src="/assets/js/vendor/mermaid.min.js"></script> <!-- Simple Jekyll Search 1.10.0 --> <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script> <!-- Google Analytics / Cookie Consent --> <script> const cookieName = 'cookie-notice-dismissed-https://sidiq0.github.io'; const isCookieConsent = 'true'; const analyticsName = 'G-BQC4550C17'; const analyticsNameGA4 = ''; </script> <span id="cookie-notice"><span>We would like to use third party cookies and scripts to improve the functionality of this website. </span><a id="cookie-notice-accept" class="button">Approve</a> </span> <!-- Global site tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-BQC4550C17"></script> <!-- seo tags --> <meta property="og:image" content="https://sidiq0.github.io/assets/img/header/triangular.jpg"> <meta property="og:type" content="website" /> <!-- Begin Jekyll SEO tag v2.8.0 --> <title>Project Pertamaku dengan Laravel [E-Voting] | Sidiq Blog</title> <meta name="generator" content="Jekyll v4.3.3" /> <meta property="og:title" content="Project Pertamaku dengan Laravel [E-Voting]" /> <meta name="author" content="Sidiq" /> <meta property="og:locale" content="id" /> <meta name="description" content="Hai 👋, selamat pagi semuanya! Alhamdulillah, akhirnya proyek pertamaku selesai yaitu membuat e-voting dengan Laravel." /> <meta property="og:description" content="Hai 👋, selamat pagi semuanya! Alhamdulillah, akhirnya proyek pertamaku selesai yaitu membuat e-voting dengan Laravel." /> <link rel="canonical" href="https://sidiq0.github.io/id/blog/2024/07/29/project-pertamaku-dengan-laravel.id.html" /> <meta property="og:url" content="https://sidiq0.github.io/blog/2024/07/29/project-pertamaku-dengan-laravel.id.html" /> <meta property="og:site_name" content="Sidiq Blog" /> <meta property="og:type" content="article" /> <meta property="article:published_time" content="2024-07-29T00:00:00+07:00" /> <meta name="twitter:card" content="summary" /> <meta property="twitter:title" content="Project Pertamaku dengan Laravel [E-Voting]" /> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Sidiq","url":"https://sidiq0.github.io/about/"},"dateModified":"2024-07-29T00:00:00+07:00","datePublished":"2024-07-29T00:00:00+07:00","description":"Hai 👋, selamat pagi semuanya! Alhamdulillah, akhirnya proyek pertamaku selesai yaitu membuat e-voting dengan Laravel.","headline":"Project Pertamaku dengan Laravel [E-Voting]","mainEntityOfPage":{"@type":"WebPage","@id":"https://sidiq0.github.io/blog/2024/07/29/project-pertamaku-dengan-laravel.id.html"},"url":"https://sidiq0.github.io/blog/2024/07/29/project-pertamaku-dengan-laravel.id.html"}</script> <!-- End Jekyll SEO tag --> <!-- RSS --> <link rel="alternate" type="application/atom+xml" title="Sidiq Blog" href="https://sidiq0.github.io/id/feed.xml"/> <link type="application/atom+xml" rel="alternate" href="https://sidiq0.github.io/id/feed.xml" title="Sidiq Blog" /> <!-- Twitter Cards --> <meta name="twitter:title" content="Project Pertamaku dengan Laravel [E-Voting]"> <meta name="twitter:description" content="Hai 👋, selamat pagi semuanya! Alhamdulillah, akhirnya proyek pertamaku selesai yaitu membuat e-voting dengan Laravel.Kenapa Laravel? Dan kenapa e-voting? Seb..."> <meta name="twitter:card" content="summary"> <meta name="twitter:image" content="https://sidiq0.github.io/assets/img/header/triangular.jpg"> <meta name="twitter:image:alt" content="Project Pertamaku dengan Laravel [E-Voting]"> </head>
+  <body>
+    
+    <header class="site-header"> <!-- Logo and title --> <div class="branding"> <a href="/id/"> <img alt="logo img" class="avatar" src="/assets/img/logo.png" loading="lazy"/> </a> <a class="site-title" aria-label="Sidiq Blog" href="/id/"> Sidiq Blog </a> </div> <!-- Toggle menu --> <nav class="clear"> <a aria-label="pull" id="pull" class="toggle" href="#"> <i class="fas fa-bars fa-lg"></i> </a> <!-- Menu --> <ul class="hide"> <li class="separator"> | </li> <li> <a class="clear" aria-label="Tentangku" title="Tentangku" href="/id/about/"> <span class="navbar-label ">Tentangku</span> </a> </li> <li class="separator"> | </li> <li> <a class="clear" aria-label="Kategori" title="Kategori" href="/id/categories/"> <span class="navbar-label ">Kategori</span> </a> </li> <li class="separator"> | </li> <li> <a class="clear" aria-label="ID" title="ID" href="/id/"> <span class="navbar-label ">ID</span> </a> </li> <li class="separator"> | </li> <li> <a class="clear" aria-label="EN" title="EN" href="https://sidiq0.github.io"> <span class="navbar-label ">EN</span> </a> </li> <li class="separator"> | </li> <li> <a class="clear" aria-label="Portfolio" title="Portfolio" href="/id/portfolio/"> <span class="navbar-label ">Portfolio</span> </a> </li> <li class="separator"> | </li> <li> <a class="clear" aria-label="Search" title="Search" href="/id/search/"> <i class="navbar-icon fas fa-search" aria-hidden="true"></i> <span class="navbar-label navbar-label-with-icon">Search</span> </a> </li> <li class="separator"> | </li> <li> <a class="clear" aria-label="Tags" title="Tags" href="/id/tags/"> <i class="navbar-icon fas fa-tags" aria-hidden="true"></i> <span class="navbar-label navbar-label-with-icon">Tags</span> </a> </li> <li class="separator"> | </li> <li> <a class="clear" aria-label="Blog Archive" title="Blog Archive" href="/id/archive/"> <i class="navbar-icon fas fa-archive" aria-hidden="true"></i> <span class="navbar-label navbar-label-with-icon">Blog Archive</span> </a> </li> <li class="separator"> | </li> <li><a id="theme-toggle" title="Project Pertamaku dengan Laravel [E-Voting] " aria-label="Project Pertamaku dengan Laravel [E-Voting]" onclick="themeToggle()"></a></li> </ul> </nav> </header>
+    <div class="content">
+      <article >
+    <header id="main" style="">
+        <div class="title-padder">
+            
+                <h1 id="Project+Pertamaku+dengan+Laravel+%5BE-Voting%5D" class="title">Project Pertamaku dengan Laravel [E-Voting]</h1>
+                
+
+
+<div class="post-info"><a href="https://sidiq0.github.io/id/about/" target="_blank" rel="noopener">
+      <img alt="Author's avatar" src="https://avatars.githubusercontent.com/u/171576435?v=4" loading="lazy">
+    
+    <p class="meta">
+      Sidiq - 
+      
+      July 29, 2024
+    </p></a></div>
+
+            
+        </div>
+    </header>
+
+    <section class="post-content">
+    
+            <p>Hai 👋, selamat pagi semuanya! Alhamdulillah, akhirnya proyek pertamaku selesai yaitu membuat e-voting dengan Laravel.</p>
+
+<!--more-->
+
+<p>Kenapa Laravel? Dan kenapa e-voting? Sebenarnya alasannya sederhana sih, karena melihat adik membuat itu, aku jadi penasaran ingin mencoba membuat juga. Dan ini adalah pertama kalinya aku membuat proyek seperti ini. Untuk pemrograman web, aku benar-benar pemula, baru sebatas HTML, CSS, dan JavaScript sederhana. Dan baru tahu tentang Laravel juga setelah melihat proyek adik.</p>
+
+<p>Proyek ini memang sederhana tapi cukup membuatku pusing hahaha. Tapi ya yang aku rasakan itu, belajar dengan metode langsung membuat proyek, sangat menyenangkan dan tidak membosankan dibandingkan fokus mengikuti jalur kursus atau tutorial yang ada di internet. Pusing sih iya, tapi yang aku rasakan itu kita belajar untuk menciptakan sesuatu dan mulai diajak berpikir, tentang apa tujuan kita belajar coding? Seperti itu. Kadang kalau kita fokus mengerjakan tutorial, di akhir program, biasanya bingung bagaimana cara kita menerapkan ilmu yang kita pakai begitu kan ya.</p>
+
+<p>Buat yang penasaran bisa langsung cek saja ke sini ya…</p>
+
+<p><a href="/id/Portfolio/e-voting.html">E-Voting</a></p>
+
+    
+    </section>
+
+    <!-- Social media shares -->
+    
+
+<div class="share-buttons">
+    <ul class="share-buttons">
+        <li class="meta">Share</li>
+        
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://sidiq0.github.io/blog/2024/07/29/project-pertamaku-dengan-laravel.id.html" target="_blank"
+               title=" Facebook">
+                <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Facebook</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=Project+Pertamaku+dengan+Laravel+%5BE-Voting%5D%20https%3A%2F%2Fsidiq0.github.io%2Fblog%2F2024%2F07%2F29%2Fproject-pertamaku-dengan-laravel.id.html"
+               target="_blank" title="">
+                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Tweet</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.tumblr.com/share?v=3&u=https://sidiq0.github.io/blog/2024/07/29/project-pertamaku-dengan-laravel.id.html&quote=Project+Pertamaku+dengan+Laravel+%5BE-Voting%5D%20%7C%20Sidiq+Blog&s="
+               target="_blank" title=" Tumblr">
+                <i class="fab fa-tumblr-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Tumblr</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://pinterest.com/pin/create/button/?url=https://sidiq0.github.io/blog/2024/07/29/project-pertamaku-dengan-laravel.id.html&media=$description=Hai+%F0%9F%91%8B%2C+selamat+pagi+semuanya%21+Alhamdulillah%2C+akhirnya+proyek+pertamaku+selesai+yaitu+membuat+e-voting+dengan+Laravel.%0A%0A"
+               target="_blank" title="">
+                <i class="fab fa-pinterest-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Pin it</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="https://www.reddit.com/submit?url=https://sidiq0.github.io/blog/2024/07/29/project-pertamaku-dengan-laravel.id.html&title=Project+Pertamaku+dengan+Laravel+%5BE-Voting%5D%20%7C%20Sidiq+Blog"
+               target="_blank" title=" Reddit">
+                <i class="fab fa-reddit-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Reddit</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://sidiq0.github.io/blog/2024/07/29/project-pertamaku-dengan-laravel.id.html&title=Project+Pertamaku+dengan+Laravel+%5BE-Voting%5D%20%7C%20Sidiq+Blog&summary=&source=https://sidiq0.github.io/blog/2024/07/29/project-pertamaku-dengan-laravel.id.html"
+               target="_blank" title=" LinkedIn">
+                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on LinkedIn</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="mailto:?subject=Project Pertamaku dengan Laravel [E-Voting]%20%7C%20Sidiq Blog&body=https://sidiq0.github.io/blog/2024/07/29/project-pertamaku-dengan-laravel.id.html"
+               target="_blank" title="">
+                <i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Email</span></a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+
+    <!-- Tag list -->
+    
+    
+
+
+  <div class="tag-list">
+    <ul>
+      
+        <li class="meta">Tags</li>
+      
+
+      
+        <li><a class="button" href="/id/tags#Laravel">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> Laravel</p>
+        </a></li>
+      
+        <li><a class="button" href="/id/tags#Portfolio">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> Portfolio</p>
+        </a></li>
+      
+    </ul>
+  </div>
+
+
+
+</article>
+
+
+
+
+<!-- To change color of links in the page --> <style> header#main { background-size: cover; background-repeat: no-repeat; background-position: center; } </style> <!-- Post navigation --> <div id="post-nav"> <div id="next-post"> <a alt="Pengalaman ikut Google Arcade 2024" href="/id/blog/2024/07/24/pengalaman-ikut-Google-Arcade-24.id.html"> <p>Next post</p> Pengalaman ikut Google Arcade 2024 </a> </div> </div> <!--Utterances--> <!-- Cusdis --> <!-- Disqus -->
+
+
+    </div>
+    
+    <footer class="site-footer"> <p class="text"> Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a> </p> <div class="footer-icons"> <ul> <!-- Social icons from Font Awesome, if enabled --> <li> <a feed.xml href="/id/feed.xml" title="Follow RSS feed" target="_blank"> <span class="fa-stack fa-lg"> <i class="fas fa-circle fa-stack-2x"></i> <i class="fas fa-rss fa-stack-1x fa-inverse"></i> </span> </a> </li> <li> <a href="https://github.com/Sidiq0" title="Follow on Github" target="_blank" rel="noopener"> <span class="fa-stack fa-lg"> <i class="fas fa-circle fa-stack-2x"></i> <i class="fab fa-github fa-stack-1x fa-inverse"></i> </span> </a> </li> </ul> </div> <script type="module"> mermaid.initialize({ startOnLoad: false, theme: "default" }); mermaid.run({ nodes: [...document.querySelectorAll('.language-mermaid'), ...document.querySelectorAll('.mermaid')] }); </script> </footer>
+  </body>
+</html>

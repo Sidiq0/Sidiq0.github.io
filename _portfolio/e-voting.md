@@ -3,7 +3,7 @@ layout: post
 title: E-Voting
 img: "assets/img/portfolio/e-voting.png"
 categories: Portfolio
-date: July, 29 2024
+date: 29 July 2024
 tags: [Portfolio,Laravel]
 ---
 

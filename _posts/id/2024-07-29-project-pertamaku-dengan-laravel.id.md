@@ -2,7 +2,7 @@
 layout: post
 title: Project Pertamaku dengan Laravel [E-Voting]
 tags: [Portfolio,Laravel]
-categories: Portfolio
+categories: Blog
 author: sidiq
 lang: id
 excerpt_separator: <!--more-->

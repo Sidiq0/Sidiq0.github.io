@@ -2,7 +2,6 @@
 layout: post
 title: Hidupi
 img: "assets/img/portfolio/hidupi.png"
-categories: Portfolio
 date: 30 July 2024
 tags: [Portfolio,Laravel]
 ---

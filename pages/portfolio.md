@@ -1,7 +1,7 @@
 --- 
 layout: page
 title : Portfolio 
-permalink: /Portfolio/
+permalink: /portfolio/
 subtitle: "Projects I am working on" 
 hide: false
 feature-img: "assets/img/pexels/computer.jpeg"

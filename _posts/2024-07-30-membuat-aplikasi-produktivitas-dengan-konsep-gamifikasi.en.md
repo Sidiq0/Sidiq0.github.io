@@ -22,7 +22,7 @@ Therefore, I want to create my own gamified productivity app using Laravel. 💪
 
 The name of this app is Hidupi, and you can check it out here... 👀
 
-[HIDUPI]({{ '/Portfolio/hidupi.html' | relative_url }})
+[HIDUPI]({{ '/portfolio/hidupi.html' | relative_url }})
 
 
 

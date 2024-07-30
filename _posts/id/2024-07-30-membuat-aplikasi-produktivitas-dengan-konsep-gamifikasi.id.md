@@ -22,7 +22,7 @@ Maka dari itu, saya ingin membuat aplikasi produktivitas gamifikasi sendiri meng
 
 Nama aplikasi ini adalah Hidupi, dan teman-teman bisa melihatnya di sini... 👀
 
-[HIDUPI]({{ '/Portfolio/hidupi.html' | relative_url }})
+[HIDUPI]({{ '/portfolio/hidupi.html' | relative_url }})
 
 
 

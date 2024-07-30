@@ -18,4 +18,4 @@ This project was simple, but it still gave me a headache, haha. But you know, le
 
 For those who are curious, you can check out my project here...
 
-[E-Voting]({{ '/Portfolio/e-voting.html' | relative_url }})
+[E-Voting]({{ '/portfolio/e-voting.html' | relative_url }})

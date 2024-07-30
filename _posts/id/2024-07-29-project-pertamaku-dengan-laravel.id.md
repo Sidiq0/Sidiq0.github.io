@@ -18,4 +18,4 @@ Proyek ini memang sederhana tapi cukup membuatku pusing hahaha. Tapi ya yang say
 
 Buat yang penasaran bisa langsung cek saja ke sini ya...
 
-[E-Voting]({{ '/Portfolio/e-voting.html' | relative_url }})
+[E-Voting]({{ '/portfolio/e-voting.html' | relative_url }})

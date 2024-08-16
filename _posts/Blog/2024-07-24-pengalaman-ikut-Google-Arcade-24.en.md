@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Experience in Google Arcade 2024
-tags: [Personal]
+tags: [Google Arcade]
 categories: Blog
 author: sidiq
 lang: en

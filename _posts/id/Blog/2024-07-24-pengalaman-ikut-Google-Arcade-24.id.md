@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pengalaman ikut Google Arcade 2024
-tags: [Personal]
+tags: [Google Arcade]
 categories: Blog
 author: sidiq
 lang: id

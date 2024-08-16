@@ -2,7 +2,7 @@
 layout: post
 title: Membuat Aplikasi Produktivitas dengan Konsep Gamifikasi
 tags: [Portfolio,Laravel]
-categories: Blog
+categories: Programming
 author: sidiq
 lang: id
 excerpt_separator: <!--more-->

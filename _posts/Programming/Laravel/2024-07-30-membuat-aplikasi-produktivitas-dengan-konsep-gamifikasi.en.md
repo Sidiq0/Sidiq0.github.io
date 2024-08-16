@@ -2,7 +2,7 @@
 layout: post
 title: Creating a Productivity App with Gamification Concepts
 tags: [Portfolio,Laravel]
-categories: Blog
+categories: Programming
 author: sidiq
 lang: en
 excerpt_separator: <!--more-->

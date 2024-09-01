@@ -1,0 +1,30 @@
+---
+title: "E-Voting"
+layout: post
+date: 2024-08-31 20:00
+tag: e-voting
+projects: true
+hidden: false
+description: "An online voting system for the student activity units at campus, featuring admin and user dashboards."
+category: project
+author: sidiqamarulloh
+externalLink: false
+---
+
+![E-Voting](/assets/projects/e-voting.png)
+
+# E-VOTING
+
+An online voting system for the student activity units at campus, featuring admin and user dashboards. This project utilizes AdminLTE 3 for the bootstrap template and Chart.js for displaying vote counts.
+
+[Github](https://github.com/Sidiq0/E-Voting)
+
+## Table of Contents
+
+* [Features](#Features)
+* [Prerequisites](#Prerequisites)
+* [Installation](#Installation)
+* [Configuration](#Configuration)
+* [Usage](#Usage)
+* [Dependencies](#Dependencies)
+* [License](#License)

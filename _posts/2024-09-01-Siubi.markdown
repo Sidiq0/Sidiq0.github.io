@@ -1,0 +1,30 @@
+---
+title: "📝 Siubi"
+layout: post
+date: 2024-09-01 10:00
+tag: 
+- blog
+- siubi
+projects: true
+hidden: false
+description: "My personal blog where I write about my life, programming, and college experiences."
+category: project
+author: sidiqamarulloh
+externalLink: false
+---
+
+![Siubi](/assets/projects/siubi.png){:style="display:block; margin-left:auto; margin-right:auto"}
+
+# SIUBI
+
+Siubi is a personal blog created using the Blogger platform and customized with a template from Soratemplates named "Pogo." The blog serves as a digital diary, documenting my personal life, experiences in programming, and reflections on my college journey.
+
+[BLOG](https://siubi.my.id)
+
+## Goals
+
+- **Personal Journaling**: To record my daily thoughts, feelings, and experiences for future reference and reflection.
+
+- **Programming Knowledge Sharing**: To share insights, tips, and projects related to programming, helping others learn and grow in this field.
+
+-**College Life Documentation**: To document my academic experiences, challenges, and   triumphs, providing a valuable resource for future generations.

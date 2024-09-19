@@ -1,0 +1,35 @@
+---
+title: "📔 Sidsheet"
+layout: post
+date: 2024-09-01 11:00
+tag: 
+- youtube
+- tiktok
+- content creator
+- spreadsheet
+- googlesheets
+- excel
+- sidsheet
+projects: true
+hidden: false
+description: "Sidsheet is a YouTube and TikTok channel focused on creating Google Sheets tutorials."
+category: project
+author: sidiqamarulloh
+externalLink: false
+---
+
+![Sidsheet](/assets/projects/sidsheet.png){:style="display:block; margin-left:auto; margin-right:auto"}
+
+# SIDSHEET
+
+Sidsheet is a digital content creation project centered around providing educational resources on Google Sheets. The primary goal of Sidsheet is to simplify the learning process for users of all levels, from beginners to advanced users.
+
+[YOUTUBE](https://www.youtube.com/@SidSheet)
+
+[TIKTOK](https://www.tiktok.com/@sidsheet)
+
+## Platform Focus
+
+- **YouTube**: In-depth tutorials on various Google Sheets functions and the creation of customizable templates. These tutorials are designed to provide a comprehensive understanding of the software's capabilities.
+
+- **TikTok**: Short-form content that offers quick tips and tricks for using Google Sheets efficiently. These videos are concise and informative, making them ideal for busy individuals who want to learn on the go.
